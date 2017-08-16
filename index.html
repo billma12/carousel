@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Carousel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Carousel without Bootstrap</h1>
+    <img id="picture" src="img/chicago.jpg">
+
+    <div class="slides">
+        <span class="dot" id="1" onclick="currentSlide(0)">&#11044;</span> 
+        <span class="dot" id="2" onclick="currentSlide(1)">&#9711;</span> 
+        <span class="dot" id="3" onclick="currentSlide(2)">&#9711;</span> 
+    </div>  
+    <div class="buttons">
+        <button id="left">left</button>
+        <button id="right">right</button>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

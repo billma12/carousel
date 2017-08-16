@@ -1,0 +1,35 @@
+h1.title {
+    text-align: center;
+}
+
+#picture {
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.dot {
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slides{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
